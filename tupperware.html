@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tupperware - Mi Catálogo</title>
+    <link rel="stylesheet" href="tupperware.css">
+    <link rel="stylesheet" href="modal.css">
+</head>
+<body>
+    <!-- Menú Principal -->
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="belleza.html">Belleza</a></li>
+            <li><a href="accesorios.html">Accesorios</a></li>
+            <li><a href="tazas.html">Tazas</a></li>
+            <li><a href="#carrito" class="carrito">
+                <img src="assets/shopping-cart (1).png" alt="Carrito" class="carrito-icon">
+                <span class="carrito-count">0</span>
+            </a></li>
+        </ul>
+    </nav>
+    
+    <div id="sidebar-carrito" class="sidebar">
+        <div class="sidebar-header">
+            <h2>Tu Carrito</h2>
+            <button class="close-btn">&times;</button>
+        </div>
+        <div class="sidebar-content">
+            <p id="carrito-vacio">Tu carrito está vacío.</p>
+            <ul id="carrito-lista"></ul>
+        </div>
+        <div class="sidebar-footer">
+            <button class="checkout-btn">Proceder al Pago</button>
+        </div>
+    </div>
+
+    <!-- Sección de Bienvenida -->
+    <header class="header">
+        <h1>Bienvenido a la sección Tupperware</h1>
+        <p>Encuentra los mejores productos para tu hogar y cocina.</p>
+    </header>
+
+    <!-- Cuadrícula de Productos -->
+    <section class="productos">
+        <h2>Productos Tupperware</h2>
+        <div class="grid">
+            <!-- Producto 1 -->
+            <div class="producto">
+                <img src="assets/fotos/imagen (6).jpeg" alt="Tazón Murano">
+                <h3>Tazón Murano</h3>
+                <p>Tazón Murano color Lila mediano 2.5Lts.</p>
+                <p><strong>Precio:</strong> Q.65.00</p>
+                <a href="productos/producto copy.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <div class="producto">
+                <img src="assets/fotos/imagen (7).jpeg" alt="Tenedores Murano">
+                <h3>Tenedores Murano</h3>
+                <p>Tenedores ideales para ensaladas.</p>
+                <p><strong>Precio:</strong> Q.28.00</p>
+                <a href="/productos/producto copy 2.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <div class="producto">
+                <img src="assets/fotos/imagen (8).jpeg" alt="Tenedores Murano">
+                <h3>Tenedores Murano</h3>
+                <p>Tenedores ideales para ensaladas.</p>
+                <p><strong>Precio:</strong> Q.28.00</p>
+                <a href="/productos/producto copy 3.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <div class="producto">
+                <img src="assets/fotos/imagen (17).jpeg" alt="Super Frechuga">
+                <h3>Super Frechuga</h3>
+                <p>Conserva frescas las hortalizas, con capacidad de 3 litros.</p>
+                <p><strong>Precio:</strong> Q.125.00</p>
+                <a href="/productos/producto copy 4.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+
+            <div class="producto">
+                <img src="assets/fotos/imagen (23).jpeg" alt="Set tazones Alohá">
+                <h3>Super Frechuga</h3>
+                <p>Conserva frescas las hortalizas, con capacidad de 3 litros.</p>
+                <p><strong>Precio:</strong> Q.125.00</p>
+                <a href="/productos/producto copy 5.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <div class="producto">
+                <img src="assets/fotos/imagen (19).jpeg" alt="Salero unidad">
+                <h3>Salero unidad</h3>
+                <p>Tiene una capacidad de hasta 50Ml ideal para sazonar tus comidas.</p>
+                <p><strong>Precio:</strong> Q.42.00</p>
+                <a href="/productos/producto copy 6.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <div class="producto">
+                <img src="assets/fotos/imagen (20).jpeg" alt="Juego de saleros">
+                <h3>Juegos de saleros</h3>
+                <p>Tiene una capacidad de hasta 50Ml ideal para sazonar tus comidas.</p>
+                <p><strong>Precio:</strong> Q.63.00</p>
+                <a href="/productos/producto copy 7.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <div class="producto">
+                <img src="assets/fotos/imagen (21).jpeg" alt="Set de tazones Alohá">
+                <h3>Set de tazones Aloha</h3>
+                <p>1 Tazon de 12L</p>
+                <p>2 Tazones 2L C/U, color cereza</p>
+                <p>Prepara, transporta y conserva</p>
+                <p><strong>Precio:</strong> Q.290.00</p>
+                <a href="/productos/producto copy 8.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+
+            <div class="producto">
+                <img src="assets/fotos/imagen (22).jpeg" alt="Set de tazones Alohá">
+                <h3>Set de tazones Aloha</h3>
+                <p>1 Tazon de 12L</p>
+                <p>2 Tazones 2L C/U, color cereza</p>
+                <p>Prepara, transporta y conserva</p>
+                <p><strong>Precio:</strong> Q.290.00</p>
+                <a href="/productos/producto copy 9.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <div class="producto">
+                <img src="assets/fotos/imagen (24).jpeg" alt="Set tazones Alohá">
+                <h3>Set tazones Aloha</h3>
+                <p>2 Tazones de 2L C/U color cereza.</p>
+                <p><strong>Precio:</strong> Q.130.00</p>
+                <a href="/productos/producto copy 10.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+
+            <div class="producto">
+                <img src="assets/fotos/imagen (27).jpeg" alt="Set tazones Alohá">
+                <h3>Set tazones Aloha</h3>
+                <p>2 Tazones de 2L C/U color cereza.</p>
+                <p><strong>Precio:</strong> Q.130.00</p>
+                <a href="/productos/producto copy 11.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <div class="producto">
+                <img src="assets/fotos/imagen (25).jpeg" alt="Jumbo Tazón">
+                <h3>Jumbo Tazón</h3>
+                <p>Con capacidad de 14 Litros, color amarillo.</p>
+                <p><strong>Precio:</strong> Q.225.00</p>
+                <a href="/productos/producto copy 12.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <div class="producto">
+                <img src="assets/fotos/imagen (26).jpeg" alt="Jumbo Tazón">
+                <h3>Jumbo Tazón</h3>
+                <p>Con capacidad de 14 Litros, color amarillo.</p>
+                <p><strong>Precio:</strong> Q.225.00</p>
+                <a href="/productos/producto copy 13.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <div class="producto">
+                <img src="assets/fotos/imagen (28).jpeg" alt="Jumbo Tazón">
+                <h3>Jumbo Tazón</h3>
+                <p>Con capacidad de 14 Litros, color amarillo.</p>
+                <p><strong>Precio:</strong> Q.225.00</p>
+                <a href="/productos/producto copy 14.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <div class="producto">
+                <img src="assets/fotos/imagen (29).jpeg" alt="Mega Tazón">
+                <h3>Mega Tazón</h3>
+                <p>Con capacidad de 10 Litros, color naranja.</p>
+                <p><strong>Precio:</strong> Q.175.00</p>
+                <a href="/productos/producto copy 15.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <div class="producto">
+                <img src="assets/fotos/imagen (30).jpeg" alt="Mega Tazón">
+                <h3>Mega Tazón</h3>
+                <p>Con capacidad de 10 Litros, color naranja.</p>
+                <p><strong>Precio:</strong> Q.175.00</p>
+                <a href="/productos/producto copy 16.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+
+            <div class="producto">
+                <img src="assets/fotos/imagen (33).jpeg" alt="Mega Tazón">
+                <h3>Mega Tazón</h3>
+                <p>Con capacidad de 10 Litros, color naranja.</p>
+                <p><strong>Precio:</strong> Q.175.00</p>
+                <a href="/productos/producto copy 17.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <div class="producto">
+                <img src="assets/fotos/imagen (31).jpeg" alt="Duo de Mega Tazón">
+                <h3>Duo de Mega Tazón</h3>
+                <p>Con capacidad de 10 Litros cada uno, color naranja.</p>
+                <p><strong>Precio:</strong> Q.295.00</p>
+                <a href="/productos/producto copy 18.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <div class="producto">
+                <img src="assets/fotos/imagen (32).jpeg" alt="Super Meditazas">
+                <h3>Super Meditazas</h3>
+                <p>Set de 6 tazas medidoras, color naranja.</p>
+                <p><strong>Precio:</strong> Q.70.00</p>
+                <a href="/productos/producto copy 19.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <div class="producto">
+                <img src="assets/fotos/imagen (34).jpeg" alt="Super Meditazas">
+                <h3>Super Meditazas</h3>
+                <p>Set de 6 tazas medidoras, color naranja.</p>
+                <p><strong>Precio:</strong> Q.70.00</p>
+                <a href="/productos/producto copy 20.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+
+            <div class="producto">
+                <img src="assets/fotos/imagen (39).jpeg" alt="Super Meditazas">
+                <h3>Super Meditazas</h3>
+                <p>Set de 6 tazas medidoras, color naranja.</p>
+                <p><strong>Precio:</strong> Q.70.00</p>
+                <a href="/productos/producto copy 21.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <div class="producto">
+                <img src="assets/fotos/imagen (35).jpeg" alt="Tazón Alohá">
+                <h3>Tazón Alohá</h3>
+                <p>Con capacidad de 7.5L, color naranja.</p>
+                <p><strong>Precio:</strong> Q.145.00</p>
+                <a href="/productos/producto copy 22.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <div class="producto">
+                <img src="assets/fotos/imagen (36).jpeg" alt="Tazón Alohá">
+                <h3>Tazón Alohá</h3>
+                <p>Con capacidad de 7.5L, color naranja.</p>
+                <p><strong>Precio:</strong> Q.145.00</p>
+                <a href="/productos/producto copy 23.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <div class="producto">
+                <img src="assets/fotos/imagen (37).jpeg" alt="Tazón Alohá">
+                <h3>Tazón Alohá</h3>
+                <p>Con capacidad de 450mL, color naranja.</p>
+                <p><strong>Precio:</strong> Q.60.00</p>
+                <a href="/productos/producto copy 24.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <div class="producto">
+                <img src="assets/fotos/imagen (38).jpeg" alt="Tazón Alohá">
+                <h3>Tazón Alohá</h3>
+                <p>Con capacidad de 450mL, color naranja.</p>
+                <p><strong>Precio:</strong> Q.60.00</p>
+                <a href="/productos/producto copy 25.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+
+            <div class="producto">
+                <img src="assets/fotos/imagen (43).jpeg" alt="Duo de Tazones Alohá">
+                <h3>Duo de Tazones Alohá</h3>
+                <p>Duo Tazones Alohá.</p>
+                <p>2 Tazones de 450mL de capacidad C/U</p>
+                <p><strong>Precio:</strong> Q.110.00</p>
+                <a href="/productos/producto copy 26.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <div class="producto">
+                <img src="assets/fotos/imagen (40).jpeg" alt="Set de Tazones Alohá">
+                <h3>Set de Tazones Alohá</h3>
+                <p>Set de 3 Tazones Alohá.</p>
+                <p>1 Tazón grande con capacida de 7.5L</p>
+                <p>2 Tazones de 450mL de capacidad C/U</p>
+                <p><strong>Precio:</strong> Q.195.00</p>
+                <a href="/productos/producto copy 27.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <div class="producto">
+                <img src="assets/fotos/imagen (41).jpeg" alt="Set de Tazones Alohá">
+                <h3>Set de Tazones Alohá</h3>
+                <p>Set de 3 Tazones Alohá.</p>
+                <p><strong>Precio:</strong> Q.195.00</p>
+                <a href="/productos/producto copy 28.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <div class="producto">
+                <img src="assets/fotos/imagen (42).jpeg" alt="Modular">
+                <h3>Modular</h3>
+                <p>Con capacidad de 2.5 Litros</p>
+                <p><strong>Precio:</strong> Q.100.00</p>
+                <a href="/productos/producto copy 29.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+
+            <div class="producto">
+                <img src="assets/fotos/imagen (57).jpeg" alt="Platos Floresta">
+                <h3>Platos Floresta</h3>
+                <p>Set de 4 platos hondos, Capacidad de 700mL, color verde</p>
+                <p><strong>Precio:</strong> Q.85.00</p>
+                <a href="/productos/producto copy 30.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <!-- Producto 58 -->
+            <div class="producto">
+                <img src="assets/fotos/imagen (58).jpeg" alt="Platos Floresta">
+                <h3>Platos Floresta</h3>
+                <p>Set de 4 platos planos para postre.</p>
+                <p><strong>Precio:</strong> Q.95.00</p>
+                <a href="/productos/producto copy 31.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+            <div class="producto">
+                <img src="assets/fotos/imagen (70).jpeg" alt="RefriRedondo">
+                <h3>RefriRedondo</h3>
+                <p>Ideal para enviar alimentos y refrigerarlos, con capacidad de 410mL, color morado.</p>
+                <p><strong>Precio:</strong> Q.35.00</p>
+                <a href="/productos/producto copy 32.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+            
+
+            <div class="producto">
+                <img src="assets/fotos/imagen (71).jpeg" alt="RefriModular">
+                <h3>RefriModular</h3>
+                <p>Ideal para enviar alimentos y refrigerarlos, con capacidad de 650mL, color lila.</p>
+                <p><strong>Precio:</strong> Q.45.00</p>
+                <a href="/productos/producto copy 33.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+
+            <div class="producto">
+                <img src="assets/fotos/imagen (96).jpeg" alt="Lonchera unisex">
+                <h3>Lonchera unisex</h3>
+                <p>Lonchera ideal para transportar tus alimentos.</p>
+                <p><strong>Precio:</strong> Q.90.00</p>
+                <a href="/productos/producto copy 34.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+
+            <div class="producto">
+                <img src="assets/fotos/imagen (106).jpeg" alt="TupperLindro">
+                <h3>TupperLindro</h3>
+                <p>Set de 4 con capacidad de 875mL C/U, color cereza.</p>
+                <p><strong>Precio:</strong> Q.180.00</p>
+                <a href="/productos/producto copy 35.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+
+            <div class="producto">
+                <img src="assets/fotos/imagen (107).jpeg" alt="TupperLindro unidad">
+                <h3>TupperLindro unidad</h3>
+                <p>Ideal para transportar bebidas y refrescos, cada uno con capadicad de 875mL C/U.</p>
+                <p><strong>Precio:</strong> Q.60.00</p>
+                <a href="/productos/producto copy 36.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+
+            <div class="producto">
+                <img src="assets/fotos/imagen (115).jpeg" alt="Platos hondos Floresta">
+                <h3>Platos Floresta</h3>
+                <p>Set de 4 platos hondos</p>
+                <p><strong>Precio:</strong> Q.85.00</p>
+                <a href="/productos/producto copy 37.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+
+            <div class="producto">
+                <img src="assets/fotos/imagen (45).jpeg" alt="Botanero con plato domino" data-price="125.00" data-product-name="Botanero con plato domino">
+                <h3>Botanero con plato domino</h3>
+                <p>Set de 4 platos hondos</p>
+                <p><strong>Precio:</strong> Q.125.00</p>
+                <a href="/productos/producto copy 38.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+
+            <div class="producto">
+                <img src="assets/fotos/imagen (47).jpeg" alt="Botanero con plato domino" data-price="125.00" data-product-name="Botanero con plato domino">
+                <h3>Botanero con plato domino</h3>
+                <p>Set de 4 platos hondos</p>
+                <p><strong>Precio:</strong> Q.125.00</p>
+                <a href="/productos/producto copy 39.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+
+            <div class="producto">
+                <img src="assets/fotos/imagen (44).jpeg" alt="Botanero con plato domino" data-price="125.00" data-product-name="Botanero con plato domino">
+                <h3>Botanero con plato domino</h3>
+                <p>Set de 4 platos hondos</p>
+                <p><strong>Precio:</strong> Q.125.00</p>
+                <a href="/productos/producto copy 40.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+
+            <div class="producto">
+                <img src="assets/fotos/imagen (220).jpeg" alt="Micro Flash" data-price="90.00" data-product-name="Micro Flash">
+                <h3>Micro Flash</h3>
+                <p>Micro flash redondo, color negro</p>
+                <p><strong>Precio:</strong> Q.90.00</p>
+                <a href="/productos/producto copy 41.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+
+            <div class="producto">
+                <img src="assets/fotos/imagen (221).jpeg" alt="Micro Flash" data-price="90.00" data-product-name="Micro Flash">
+                <h3>Micro Flash</h3>
+                <p>Micro flash redondo, color negro</p>
+                <p><strong>Precio:</strong> Q.90.00</p>
+                <a href="/productos/producto copy 42.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+
+            <div class="producto">
+                <img src="assets/fotos/imagen (222).jpeg" alt="Platos hondos Floresta" data-price="95.00" data-product-name="Platos hondos Floresta">
+                <h3>Platos hondos Floresta</h3>
+                <p>Set de 4 platos hondos</p>
+                <p><strong>Precio:</strong> Q.95.00</p>
+                <a href="/productos/producto copy 43.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+
+            <div class="producto">
+                <img src="assets/fotos/imagen (223).jpeg" alt="Platos hondos Floresta" data-price="95.00" data-product-name="Platos hondos Floresta">
+                <h3>Platos hondos Floresta</h3>
+                <p>Set de 4 platos hondos</p>
+                <p><strong>Precio:</strong> Q.95.00</p>
+                <a href="/productos/producto copy 44.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+
+            <div class="producto">
+                <img src="assets/fotos/imagen (224).jpeg" alt="Set tazas Alohá" data-price="105.00" data-product-name="Set tazas Alohá">
+                <h3>Set tazas Alohá</h3>
+                <p>Set de 4 tazas, color azul.</p>
+                <p><strong>Precio:</strong> Q.105.00</p>
+                <a href="/productos/producto copy 45.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+
+            <div class="producto">
+                <img src="assets/fotos/imagen (225).jpeg" alt="Set tazas Alohá" data-price="105.00" data-product-name="Set tazas Alohá">
+                <h3>Set tazas Alohá</h3>
+                <p>Set de 4 tazas, color azul.</p>
+                <p><strong>Precio:</strong> Q.105.00</p>
+                <a href="/productos/producto copy 46.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+
+            <div class="producto">
+                <img src="assets/fotos/imagen (226).jpeg" data-name="Set Floresta" data-description="Set de 4 tazas y 4 platos hondos, color azul." data-price="105.00" class="Set Floresta">
+                <h3>Set Floresta</h3>
+                <p>Set de 4 tazas y 4 platos hondos, color azul.</p>
+                <p><strong>Precio:</strong> Q.145.00</p>
+                <a href="/productos/producto copy 47.html" class="ver-detalles">Ver Detalles</a>
+                <a href="#">Preguntame por whatsapp</a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer style="background-color: #9575cd; color: #fff; text-align: center; padding: 20px 0; margin-top: 30px; position: relative; width: 100%; z-index: 10;">
+        <p>&copy; 2024 Mi Catálogo</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="tupperware.js"></script>
+</body>
+</html>

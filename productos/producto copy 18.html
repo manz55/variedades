@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Producto</title>
+    <link rel="stylesheet" href="producto.css">
+</head>
+<body>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="/index.html">Regresar al menu Principal</a></li>
+            <li><a href="/tazas.html">Tazas</a></li>
+            <li><a href="/belleza.html">Belleza</a></li>
+            <li><a href="/accesorios.html">Accesorios</a></li>
+            <li><a href="/tupperware.html">Tupperware</a></li>
+            <!-- Ícono del carrito -->
+            <li><a href="#carrito" class="carrito">
+                <img src="/assets/shopping-cart (1).png" alt="Carrito" class="carrito-icon">
+                <span class="carrito-count">0</span>
+            </a></li>
+        </ul>
+    </nav>
+
+        <!-- Contenedor del side bar del carrito -->
+        <div id="sidebar-carrito" class="sidebar">
+            <div class="sidebar-header">
+                <h2>Tu Carrito</h2>
+                <button class="close-btn">&times;</button>
+            </div>
+            <div class="sidebar-content">
+                <p id="carrito-vacio">Tu carrito está vacío.</p>
+                <ul id="carrito-lista"></ul>
+            </div>
+            <div class="sidebar-footer">
+                <button class="checkout-btn">Proceder al Pago</button>
+            </div>
+        </div>
+
+    <div class="producto-container">
+        <img src="/assets/fotos/imagen (31).jpeg" alt="Producto" class="producto-imagen">
+        <div class="producto-detalles">
+            <h1>Duo de Mega Tazón</h1>
+            <p>Con capacidad de 10 Litros cada uno, color naranja.</p>
+            <p class="producto-precio">Q.295.00</p>
+            <button class="btn-agregar">Agregar al carrito</button>
+            <button class="btn-regresar" onclick="history.back()">Regresar</button>
+        </div>
+    </div>
+
+    <footer style="background-color: #9575cd; color: #fff; text-align: center; padding: 20px 0; margin-top: 30px; position: relative; width: 100%; z-index: 10;">
+        <p>&copy; 2024 Mi Catálogo</p>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>

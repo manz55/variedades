@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Catálogo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Menú Principal -->
+    <nav class="menu">
+        <ul>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#quien-soy">¿Quién soy?</a></li>
+            <!-- Ícono del carrito -->
+            <li><a href="#carrito" class="carrito">
+                <img src="assets/shopping-cart (1).png" alt="Carrito" class="carrito-icon">
+                <span class="carrito-count">0</span>
+            </a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenedor del side bar del carrito -->
+    <div id="sidebar-carrito" class="sidebar">
+        <div class="sidebar-header">
+            <h2>Tu Carrito</h2>
+            <button class="close-btn">&times;</button>
+        </div>
+        <div class="sidebar-content">
+            <p id="carrito-vacio">Tu carrito está vacío.</p>
+            <ul id="carrito-lista"></ul>
+        </div>
+        <div class="sidebar-footer">
+            <button class="checkout-btn">Proceder al Pago</button>
+        </div>
+    </div>
+
+    <!-- Sección de Bienvenida -->
+    <header class="header">
+        <img src="assets/fotos/logoinicial.png" alt="Logo" class="logo">
+        <h1>Bienvenido a Mi Catálogo de Productos</h1>
+        <p>Explora nuestras categorías de productos y encuentra lo que necesitas.</p>
+    </header>
+
+    <!-- Enlaces a Categorías -->
+    <section id="productos" class="categorias">
+        <h2>Nuestras Categorías</h2>
+        <div class="categoria">
+            <a href="tupperware.html">
+                <img src="assets/fotos/tupperware.jpg" alt="Tupperware">
+                <p>Tupperware</p>
+            </a>
+        </div>
+        <div class="categoria">
+            <a href="belleza.html">
+                <img src="assets/fotos/belleza.jpg" alt="Belleza & Salud">
+                <p>Belleza & Salud</p>
+            </a>
+        </div>
+        <div class="categoria">
+            <a href="accesorios.html">
+                <img src="assets/fotos/accesorios.jpg" alt="Accesorios">
+                <p>Accesorios</p>
+            </a>
+        </div>
+        <div class="categoria">
+            <a href="tazas.html">
+                <img src="assets/fotos/Tazas.jpg" alt="Tazas">
+                <p>Tazas</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- Sección Quién Soy -->
+    <section id="quien-soy" class="quien-soy">
+        <h2>¿Quién soy?</h2>
+        <p>Hola, soy el creador de este catálogo. Aquí puedes explorar mis productos cuidadosamente seleccionados para ti. ¡Espero que encuentres lo que buscas y disfrutes de la experiencia!</p>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <p>Si tienes alguna pregunta o necesitas ayuda, no dudes en contactarme.</p>
+        <p>Email: joshuazet110@gmail.com</p>
+        <p>Teléfono: +502 5825 3580</p>
+    </section>
+
+    <!-- Enlace al script.js -->
+    <script src="script.js"></script>
+</body>
+</html>

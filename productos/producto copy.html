@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Producto</title>
+    <link rel="stylesheet" href="/productos/producto.css"> <!-- Ruta del archivo CSS -->
+</head>
+<body>
+
+    <!-- Menú de navegación -->
+    <nav class="menu">
+        <ul>
+            <li><a href="/index.html">Regresar al menu Principal</a></li>
+            <li><a href="/tazas.html">Tazas</a></li>
+            <li><a href="/belleza.html">Belleza</a></li>
+            <li><a href="/accesorios.html">Accesorios</a></li>
+            <li><a href="/tupperware.html">Tupperware</a></li>
+            <!-- Ícono del carrito -->
+            <li><a href="#carrito" class="carrito">
+                <img src="/assets/shopping-cart (1).png" alt="Carrito" class="carrito-icon">
+                <span class="carrito-count">0</span>
+            </a></li>
+        </ul>
+    </nav>
+
+    <!-- Sidebar del carrito -->
+    <div id="sidebar-carrito" class="sidebar">
+        <div class="sidebar-header">
+            <h2>Tu Carrito</h2>
+            <button class="close-btn">&times;</button>
+        </div>
+        <div class="sidebar-content">
+            <p id="carrito-vacio">Tu carrito está vacío.</p>
+            <ul id="carrito-lista"></ul>
+        </div>
+        <div class="sidebar-footer">
+            <p>Total: <span id="carrito-total">Q0.00</span></p>
+            <button class="checkout-btn">Proceder al Pago</button>
+        </div>
+    </div>
+
+    <!-- Contenedor del producto -->
+    <div class="producto-container">
+        <!-- Imagen del producto -->
+        <img src="/assets/fotos/imagen (6).jpeg" alt="Tazón Murano" class="producto-imagen">
+
+        <!-- Detalles del producto -->
+        <div class="producto-detalles">
+            <h1>Tazón Murano</h1>
+            <p>Este tazón de color Lila es perfecto para tus bebidas. Capacidad de 2.5Lts.</p>
+            <div class="producto-precio">Q65.00</div>
+            <button class="btn-agregar">Agregar al carrito</button>
+            <button class="btn-regresar" onclick="history.back()">Regresar</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer style="background-color: #9575cd; color: #fff; text-align: center; padding: 20px 0; margin-top: 30px; position: relative; width: 100%; z-index: 10;">
+        <p>&copy; 2024 Mi Catálogo</p>
+    </footer>
+
+    <!-- Script para funcionalidades adicionales -->
+    <script src="/script.js" defer></script>
+
+</body>
+</html>
